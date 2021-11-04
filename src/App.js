@@ -10,7 +10,7 @@ import Feedback from './pages/Feedback';
 export default function App() {
   return (
     <Switch>
-      <Route exact path="/" component={ Login } />
+      <Route exact path="/game-trivia" component={ Login } />
       <Route path="/settings" component={ Config } />
       <Route path="/jogo" component={ Game } />
       <Route path="/ranking" component={ Ranking } />
